@@ -7,12 +7,15 @@ head
   link(rel="stylesheet", href="css/bootstrap.min.css")
   link(rel="stylesheet", href="style.css")
 body
-  header.header-conainer
-    .container
-      nav.navbar.navbar-expand-sm.bg-info.navbar-light.fixed-top
+  .container.px-0.px-md-4
+    header.header-conainer
+      nav.navbar.navbar-expand-sm.navbar-expand-md.bg-info.navbar-light.fixed-top
         
         li.list-ul: a(href="#")
           i.fas.fa-bars
+          span.list-ul-text Menú
+
+        
         
         li.list-ul.line |
 
@@ -22,15 +25,65 @@ body
 
         li.list-ul: a(href="#")
           i.fas.fa-user-circle
+      
+      ul.contenedor-list
+        li.c__list hoy interesa
 
-      .contenedor-news
+        a.c__list_a(href="#") lo último
 
-        h1.title-news economía
+        li.c-list |
 
-        img.img-news(src="img/K33OU634NNC3ROBWYROHORJTEY.jpg", alt="Imagen Noticia")
+        a.c__list_a(href="#") venezuela
 
-        .contenedor-news-text
-          a.link-news(href="#") economia
+        li.c-list |
+
+        a.c__list_a(href="#") keiko fujimori
+
+        li.c-list |
+
+        a.c__list_a(href="#") venezuela
+
+
+      
+
+    .contenedor-news.news
+
+      h2.title-news economía
+          
+      img.img-news(src="img/K33OU634NNC3ROBWYROHORJTEY.jpg", alt="Imagen Noticia")
+
+      .c-news__text
+        a.link-news(href="#") economia
+        h3.title-news__text minsa anuncia primera transferencia de s/395.8 millones para financiar aseguramiento universal.
+        a.link--news(href="#") redacción perú21
+
+    .contenedor-news
+  
+      img.img-news(src="img/K33OU634NNC3ROBWYROHORJTEY.jpg", alt="Imagen Noticia")
+
+      .c-news__text
+        a.link-news(href="#") economia
+        h3.title-news__text minsa anuncia primera transferencia de s/395.8 millones para financiar aseguramiento universal.
+        a.link--news(href="#") redacción perú21
+
+    .contenedor-news
+  
+      img.img-news(src="img/K33OU634NNC3ROBWYROHORJTEY.jpg", alt="Imagen Noticia")
+
+      .c-news__text
+        a.link-news(href="#") economia
+        h3.title-news__text minsa anuncia primera transferencia de s/395.8 millones para financiar aseguramiento universal.
+        a.link--news(href="#") redacción perú21
+
+    .contenedor-news
+  
+      img.img-news(src="img/K33OU634NNC3ROBWYROHORJTEY.jpg", alt="Imagen Noticia")
+
+      .c-news__text
+        a.link-news(href="#") economia
+        h3.title-news__text minsa anuncia primera transferencia de s/395.8 millones para financiar aseguramiento universal.
+        a.link--news(href="#") redacción perú21
+    
           
           
         
