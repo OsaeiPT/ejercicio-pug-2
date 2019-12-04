@@ -40,6 +40,14 @@
 
 /* Contenedor List */
 
+.contenedor-list li{
+  display: none;
+}
+
+.contenedor-list a{
+  display: none;
+}
+
 
 
 /* Contenedor News */
@@ -104,11 +112,6 @@
     display: flex;
   }
 
-  .contenedor-list a{
-    color: #555 !important;
-    text-transform: capitalize;
-  }
-  
   .c__list{
     text-transform: uppercase;
     font-size: 11px;
@@ -147,6 +150,66 @@
     left: 305px;
   }
 
+  
+  .contenedor-list li{
+    display: initial;
+  }
+
+  .contenedor-list a{
+    font-size: 14px;
+    font-weight: 700;
+    color: #555 !important;
+    text-transform: capitalize;
+    display: initial;
+  }
+  
+  .c__list_a-{
+    position: relative;
+    left: 30px;
+  }
+  
+  .c-list-{
+    position: relative;
+    left: 50px;
+    color: #ebebeb;
+    font-size: 35px;
+    font-weight: 100;
+    margin-top: -20px;
+  }
+  
+  .c__list_a--{
+    position: relative;
+    left: 70px;
+  }
+  
+  .c-list--{
+    position: relative;
+    left: 90px;
+    color: #ebebeb;
+    font-size: 35px;
+    font-weight: 100;
+    margin-top: -20px;
+  }
+  
+  .c__list_a---{
+    position: relative;
+    left: 110px;
+  }
+  
+  .c-list---{
+    position: relative;
+    left: 130px;
+    color: #ebebeb;
+    font-size: 35px;
+    font-weight: 100;
+    margin-top: -20px;
+  }
+  
+  .c__list_a----{
+    position: relative;
+    left: 150px;
+  }
+
   .fa-user-circle{
     position: relative;
     left: 310px;
@@ -157,5 +220,38 @@
   width: 275px;
   }
 
+  .c_width{
+    width: 50%;
+  }
+
+  .width-50{
+    width: 49%;
+    left: 342px;
+  }
+
+  .width_50{
+    width: 49%;
+    top: -370px;
+  }
+
+}
+
+@media screen and (min-width:1024px){
+
+  .width-50{
+    width: 32%;
+    left: 370px;
+  }
+
+  .width_50{
+    width: 32%;
+    left: 0;
+  }
+
+  .width__50{
+    width: 32%;
+    left: 742px;
+    top: -740px;
+  }
 
 }
